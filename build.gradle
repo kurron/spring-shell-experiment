@@ -13,10 +13,10 @@ ext {
     slf4jVersion = '1.7.5'
     spockVersion = '0.7-groovy-2.0'
 
-    springVersion = 3.2.4.RELEASE
-    commonsioVersion = 2.4
-    jlineVersion=2.11
-    jansiVersion=1.11
+    springVersion = '3.2.4.RELEASE'
+    commonsioVersion = '2.4'
+    jlineVersion = '2.11'
+    jansiVersion = '1.11'
 }
 
 configurations.all {
