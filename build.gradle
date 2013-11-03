@@ -4,6 +4,7 @@ group = 'org.kurron.shell'
 logger.quiet 'Building Spring Shell Experiment'
 apply plugin: 'groovy'
 apply plugin: 'project-report'
+apply plugin: 'application'
 
 ext {
     groovyVersion = '2.1.9'
@@ -55,4 +56,12 @@ dependencies {
     testCompile "org.spockframework:spock-core:${spockVersion}"
 }
 
-defaultTasks 'clean', 'projectReport', 'build'
+mainClassName = "org.kurron.shell.Main"
+
+run {
+    standardInput = System.in
+}
+
+defaultTasks 'clean', 'projectReport', 'build', 'installApp'
+
+
