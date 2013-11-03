@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration debug="false">
-    <contextName>SLP</contextName>
+    <contextName>Spring Shell</contextName>
     <property name="MESSAGE_FORMAT"
               value="%contextName %5.5relative %1(%.-1level) %35.35logger{0} %message %throwable{short}%n"/>
 
@@ -14,7 +14,7 @@
         <logger name="org.livetribe" level="ALL"/>
     -->
 
-    <root level="ALL">
+    <root level="WARN">
         <appender-ref ref="CONSOLE"/>
     </root>
 </configuration>

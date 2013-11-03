@@ -45,7 +45,6 @@ dependencies {
     compile "org.springframework:spring-context-support:${springVersion}"
     compile "org.springframework.shell:spring-shell:${springShellVersion}"
     compile "commons-io:commons-io:${commonsioVersion}"
-    //compile "jline:jline:${jlineVersion}"
     compile "org.fusesource.jansi:jansi:${jansiVersion}"
 
     runtime "ch.qos.logback:logback-core:${logbackVersion}"
