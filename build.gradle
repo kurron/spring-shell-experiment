@@ -12,6 +12,11 @@ ext {
     logbackVersion = '1.0.12'
     slf4jVersion = '1.7.5'
     spockVersion = '0.7-groovy-2.0'
+
+    springVersion = 3.2.4.RELEASE
+    commonsioVersion = 2.4
+    jlineVersion=2.11
+    jansiVersion=1.11
 }
 
 configurations.all {
@@ -32,6 +37,12 @@ dependencies {
     compile "org.slf4j:jul-to-slf4j:${slf4jVersion}"
     compile "org.slf4j:log4j-over-slf4j:${slf4jVersion}"
     compile "org.slf4j:jcl-over-slf4j:${slf4jVersion}"
+
+    compile "org.springframework:spring-core:${springVersion}"
+    compile "org.springframework:spring-context-support:${springVersion}"
+    compile "commons-io:commons-io:${commonsioVersion}"
+    compile "jline:jline:${jlineVersion}"
+    compile "org.fusesource.jansi:jansi:${jansiVersion}"
 
     runtime "ch.qos.logback:logback-core:${logbackVersion}"
     runtime "ch.qos.logback:logback-classic:${logbackVersion}"
