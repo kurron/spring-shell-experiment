@@ -14,6 +14,7 @@ ext {
     spockVersion = '0.7-groovy-2.0'
 
     springVersion = '3.2.4.RELEASE'
+    springShellVersion = '1.0.0.RELEASE'
     commonsioVersion = '2.4'
     jlineVersion = '2.11'
     jansiVersion = '1.11'
@@ -27,6 +28,7 @@ configurations.all {
 }
 
 repositories {
+    maven { url "http://repo.springsource.org/libs-release" }
     mavenCentral()
 }
 
@@ -40,8 +42,9 @@ dependencies {
 
     compile "org.springframework:spring-core:${springVersion}"
     compile "org.springframework:spring-context-support:${springVersion}"
+    compile "org.springframework.shell:spring-shell:${springShellVersion}"
     compile "commons-io:commons-io:${commonsioVersion}"
-    compile "jline:jline:${jlineVersion}"
+    //compile "jline:jline:${jlineVersion}"
     compile "org.fusesource.jansi:jansi:${jansiVersion}"
 
     runtime "ch.qos.logback:logback-core:${logbackVersion}"

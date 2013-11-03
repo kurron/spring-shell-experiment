@@ -6,6 +6,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-aop/3.2.4.RELEASE/source/c30c2ec8549bbaebf6825495116c7944699e1645/spring-aop-3.2.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-aop/3.2.4.RELEASE/source/c30c2ec8549bbaebf6825495116c7944699e1645/spring-aop-3.2.4.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

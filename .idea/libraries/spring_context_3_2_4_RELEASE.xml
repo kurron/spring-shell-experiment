@@ -6,6 +6,8 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-context/3.2.4.RELEASE/source/10e9dbd2d8ed0ab5c125aae8756e32c5174b46a2/spring-context-3.2.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-context/3.2.4.RELEASE/source/10e9dbd2d8ed0ab5c125aae8756e32c5174b46a2/spring-context-3.2.4.RELEASE-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/artifacts-26/filestore/org.springframework/spring-context/3.2.4.RELEASE/source/10e9dbd2d8ed0ab5c125aae8756e32c5174b46a2/spring-context-3.2.4.RELEASE-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
